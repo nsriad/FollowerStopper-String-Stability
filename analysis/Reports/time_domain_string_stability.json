@@ -1,0 +1,38 @@
+[
+    {
+        "Vehicle": "Follower1",
+        "left_norm": 169.67087533433659,
+        "right_norm": 101.92008026924822,
+        "violation": "False"
+    },
+    {
+        "Vehicle": "Follower2",
+        "left_norm": 101.92008026924822,
+        "right_norm": 85.41516467524956,
+        "violation": "False"
+    },
+    {
+        "Vehicle": "Follower3",
+        "left_norm": 85.41516467524956,
+        "right_norm": 74.57719444877235,
+        "violation": "False"
+    },
+    {
+        "Vehicle": "Follower4",
+        "left_norm": 74.57719444877235,
+        "right_norm": 66.48990832479768,
+        "violation": "False"
+    },
+    {
+        "Vehicle": "Follower5",
+        "left_norm": 66.48990832479768,
+        "right_norm": 58.753732248683576,
+        "violation": "False"
+    },
+    {
+        "Vehicle": "Follower6",
+        "left_norm": 58.753732248683576,
+        "right_norm": 53.42856369246697,
+        "violation": "False"
+    }
+]

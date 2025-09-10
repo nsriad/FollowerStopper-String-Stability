@@ -1,0 +1,13 @@
+<routes>
+  <vType id="leader" carFollowModel="Krauss" accel="2.0" decel="4.5" tau="1.0" minGap="2.5" maxSpeed="30" guiShape="passenger"/>
+  <vType id="idm_follower" carFollowModel="IDM" accel="2.5" decel="4.5" tau="1.2" minGap="2.0" maxSpeed="30" guiShape="passenger"/>
+  <vType id="cacc_follower" carFollowModel="CACC" accel="3.0" decel="5.0" tau="0.7" minGap="1.0" maxSpeed="30" guiShape="passenger"/>
+  <route id="loop" edges="e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3 e0 e1 e2 e3"/>
+  <vehicle id="veh0" type="leader" route="loop" depart="0" color="255,0,0"/>
+  <vehicle id="veh1" type="idm_follower" route="loop" depart="1" color="0,100,200"/>
+  <vehicle id="veh2" type="idm_follower" route="loop" depart="2" color="10,160,54"/>
+  <vehicle id="veh3" type="idm_follower" route="loop" depart="3" color="20,220,164"/>
+  <vehicle id="veh4" type="idm_follower" route="loop" depart="4" color="30,24,18"/>
+  <vehicle id="veh5" type="idm_follower" route="loop" depart="5" color="40,84,128"/>
+  <vehicle id="veh6" type="idm_follower" route="loop" depart="6" color="50,144,238"/>
+</routes>

@@ -1,0 +1,17 @@
+<configuration>
+    <input>
+        <net-file value="../network/circular_network/road.net.xml"/>
+        <route-files value="../route/circular.rou.xml"/>
+    </input>
+
+    <time>
+        <step-length value="0.1"/>  <!-- Default is 1.0 -->
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>

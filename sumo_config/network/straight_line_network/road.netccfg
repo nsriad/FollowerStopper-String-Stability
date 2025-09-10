@@ -1,0 +1,9 @@
+<configuration>
+    <input>
+        <node-files value="road.nod.xml"/>
+        <edge-files value="road.edg.xml"/>
+    </input>
+    <output>
+        <output-file value="road.net.xml"/>
+    </output>
+</configuration>

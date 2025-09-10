@@ -1,0 +1,9 @@
+<configuration>
+    <input>
+        <node-files value="ring.nod.xml"/>
+        <edge-files value="ring.edg.xml"/>
+    </input>
+    <output>
+        <output-file value="ring.net.xml"/>
+    </output>
+</configuration>

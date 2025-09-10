@@ -1,0 +1,13 @@
+<routes>
+  <vType id="krauss_follower" carFollowModel="Krauss" accel="2.5" decel="3.5" tau="1.1" minGap="2.5" maxSpeed="35" guiShape="passenger"/>
+  <vType id="idm_follower" carFollowModel="IDM" accel="2.5" decel="2.5" tau="1.0" minGap="2" maxSpeed="35" guiShape="passenger"/>
+  <vType id="cacc_follower" carFollowModel="CACC" accel="2.0" decel="2.0" tau="0.7" minGap="1.5" maxSpeed="35" guiShape="passenger"/>
+  <route id="loop" edges="e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 e10 e11 e12 e13 e14 e15 e16 e17 e18 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 e29 e30 e31 e32 e33 e34 e35 e36 e37 e38 e39 e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 e10 e11 e12 e13 e14 e15 e16 e17 e18 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 e29 e30 e31 e32 e33 e34 e35 e36 e37 e38 e39"/>
+  <vehicle id="veh0" type="idm_follower" route="loop" depart="0" departPos="72" color="255,0,0"/>
+  <vehicle id="veh1" type="idm_follower" route="loop" depart="0" departPos="60" color="0,50,150"/>
+  <vehicle id="veh2" type="idm_follower" route="loop" depart="0" departPos="48" color="90,110,160"/>
+  <vehicle id="veh3" type="idm_follower" route="loop" depart="0" departPos="36" color="180,170,170"/>
+  <vehicle id="veh4" type="idm_follower" route="loop" depart="0" departPos="24" color="14,230,180"/>
+  <vehicle id="veh5" type="idm_follower" route="loop" depart="0" departPos="12" color="104,34,190"/>
+  <vehicle id="veh6" type="idm_follower" route="loop" depart="0" departPos="0" color="194,94,200"/>
+</routes>

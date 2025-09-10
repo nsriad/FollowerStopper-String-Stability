@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+        <net-file value="../network/straight_line_network/road.net.xml"/>
+        <route-files value="../route/straight.rou.xml"/>
+    </input>
+    <time>
+        <step-length value="0.1"/>  <!-- Default is 1.0 -->
+        <begin value="0"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/> <!-- disables auto-teleport -->
+    </processing>
+</configuration>

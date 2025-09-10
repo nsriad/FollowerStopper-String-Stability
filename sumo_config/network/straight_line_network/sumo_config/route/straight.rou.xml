@@ -1,0 +1,13 @@
+<routes>
+  <vType id="leader" carFollowModel="Krauss" accel="2.5" decel="3.5" tau="1.1" minGap="2.5" maxSpeed="30" guiShape="passenger"/>
+  <vType id="idm_follower" carFollowModel="IDM" accel="1.5" decel="2.5" tau="2.0" minGap="2.5" maxSpeed="30" guiShape="passenger"/>
+  <vType id="cacc_follower" carFollowModel="CACC" accel="2.0" decel="2.0" tau="0.7" minGap="1.5" maxSpeed="30" guiShape="passenger"/>
+  <route id="straight" edges="e0"/>
+  <vehicle id="veh0" type="leader" route="straight" depart="0" color="255,0,0"/>
+  <vehicle id="veh1" type="idm_follower" route="straight" depart="1" color="0,50,150"/>
+  <vehicle id="veh2" type="idm_follower" route="straight" depart="2" color="10,110,240"/>
+  <vehicle id="veh3" type="idm_follower" route="straight" depart="3" color="20,170,74"/>
+  <vehicle id="veh4" type="idm_follower" route="straight" depart="4" color="30,230,164"/>
+  <vehicle id="veh5" type="idm_follower" route="straight" depart="5" color="40,34,254"/>
+  <vehicle id="veh6" type="idm_follower" route="straight" depart="6" color="50,94,88"/>
+</routes>
