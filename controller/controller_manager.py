@@ -87,6 +87,28 @@ def follower_stopper(r, dx, dv, v_AV, dx_min, dx_activate, decel, h):
     return u_cmd
 
 
+# Optimal velocity Model by Bando et. al.
+
+def ovm_bando(s, v0, delta_s, beta):
+    """
+    Bando OVM optimal velocity function.
+    
+    Parameters:
+        s : float
+            Gap (m)
+        v0 : float
+            Desired/free speed (m/s)
+        delta_s : float
+            Transition width (m)
+        beta : float
+            Form factor
+            
+    
+    Returns:
+        float : optimal velocity (m/s)
+    """
+    return v0 * (math.tanh(s / delta_s - beta) + math.tanh(beta)) / (1.0 + math.tanh(beta))
+
 # Simple Gap-Based Speed Controller 
 def simple_gap_controller(veh_id, Kp=0.4, desired_gap=5.0):
     leader_info = traci.vehicle.getLeader(veh_id)
